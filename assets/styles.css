@@ -31,6 +31,7 @@ body {
     flex-direction: column;
     gap: 24px;
     padding: 24px;
+    margin-bottom: 20px;
 }
 
 .article_image {
@@ -55,4 +56,37 @@ body {
     font-family: 'Figtree', sans-serif;
     font-size: 14px;
     font-weight: 500;
+    color: var(--gray500-color);
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 800;
+    color: var(--gray950-color);
+    font-size: 24px;
+}
+
+a:hover {
+    color: var(--yellow-color);
+}
+
+.article_text {
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--gray500-color);
+}
+
+.author_container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.author_container p {
+    font-family: 'Figtree', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--gray950-color);
 }
